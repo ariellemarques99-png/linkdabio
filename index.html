@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dra. Ariele Marques</title>
+
 <style>
     body {
         margin: 0;
@@ -12,33 +13,14 @@
         display: flex;
         justify-content: center;
     }
-
     .container {
         width: 100%;
         max-width: 520px;
-        background: #fff;
-        display: block;
     }
-
     img {
         width: 100%;
+        display: block;
         height: auto;
-        display: block;
-    }
-
-    .btn {
-        display: block;
-        width: 88%;
-        margin: 18px auto;
-        background: #0a4d3c;
-        color: #fff;
-        text-align: center;
-        padding: 18px;
-        border-radius: 14px;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: bold;
-        font-family: Arial, sans-serif;
     }
 </style>
 </head>
@@ -46,18 +28,27 @@
 
 <div class="container">
 
-    <!-- Sua imagem -->
-    <img src="linkdabio.png" alt="Link da Bio">
+    <!-- Imagem com mapa clicável -->
+    <img src="linkdabio.png" usemap="#mapa" alt="Link da Bio">
 
-    <!-- Botão 1 -->
-    <a class="btn" href="https://wa.link/1be62y" target="_blank">
-        Agendar Consulta – Uauá-BA
-    </a>
+    <map name="mapa">
 
-    <!-- Botão 2 -->
-    <a class="btn" href="https://wa.link/4bzh4m" target="_blank">
-        Agendar Consulta – Juazeiro-BA
-    </a>
+        <!-- ÁREA 1 – CARD UAUÁ -->
+        <!-- (coordenadas ajustadas para sua imagem) -->
+        <area shape="rect"
+              coords="0,500,520,950"
+              href="https://wa.link/1be62y"
+              target="_blank"
+              alt="Agendar Uauá">
+
+        <!-- ÁREA 2 – CARD JUAZEIRO -->
+        <area shape="rect"
+              coords="0,960,520,1420"
+              href="https://wa.link/4bzh4m"
+              target="_blank"
+              alt="Agendar Juazeiro">
+
+    </map>
 
 </div>
 
