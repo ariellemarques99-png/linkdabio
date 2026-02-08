@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dra. Ariele Marques</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 520px;
+        background: #fff;
+        display: block;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .btn {
+        display: block;
+        width: 88%;
+        margin: 18px auto;
+        background: #0a4d3c;
+        color: #fff;
+        text-align: center;
+        padding: 18px;
+        border-radius: 14px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sua imagem -->
+    <img src="linkdabio.png" alt="Link da Bio">
+
+    <!-- Botão 1 -->
+    <a class="btn" href="https://wa.link/1be62y" target="_blank">
+        Agendar Consulta – Uauá-BA
+    </a>
+
+    <!-- Botão 2 -->
+    <a class="btn" href="https://wa.link/4bzh4m" target="_blank">
+        Agendar Consulta – Juazeiro-BA
+    </a>
+
+</div>
+
+</body>
+</html>
